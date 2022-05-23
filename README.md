@@ -2,6 +2,8 @@
 
 This is a set of buggy programs to demonstrate how gdb and valgrind are super duper useful.  This recitation has been/will be recorded, but we are providing the source code and walkthrough notes.
 
+This readme only appears when you clone the repository as the most recent commit.  Please do let me know if any of the explanations here don't work 'cause I'll probably have to rewrite the commits :(
+
 ## Author
 
 [Antonio Esparza](https://github.com/alesparza), a 595 TA (but mostly a debugger)
