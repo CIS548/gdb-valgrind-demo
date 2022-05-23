@@ -72,7 +72,7 @@ void travel() {
       }
     }
     distanceTravelled++;
-    
+    i++; 
     printf("\n"); // spacing
   }
   printf("Travel complete!\n");
