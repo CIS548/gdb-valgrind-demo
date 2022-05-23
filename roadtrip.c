@@ -116,16 +116,16 @@ int main(int argc, char** argv) {
   
   // pretend there is other way more complicated stuff happening
   
-  //setupTrip(setup);
-  //setupCheck(setup);
-  travel();
+  setupTrip(setup);
+  setupCheck(setup);
+  //travel();
 
   // pretend there is other way more complicated stuff happening
 
   printf("\nSummary:\n");
   printf("Group name: %s\n", name);
-  //printf("Destination: %s\n", setup->destination);
-  //printf("Travellers: %d\n", setup->travellers);
+  printf("Destination: %s\n", setup->destination);
+  printf("Travellers: %d\n", setup->travellers);
   
   printf("Bye bye!\n");
 }
