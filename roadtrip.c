@@ -16,7 +16,7 @@ typedef struct Setup_struct {
 void travel() {
   printf("How many kilometres should we go?\n");
   int input;
-  input = scanf("%d", &input);
+  scanf("%d", &input);
   printf("You entered: %d km\n", input);
   printf("Let's gooooooo!!!!!\n\n");
   int distanceTravelled;
