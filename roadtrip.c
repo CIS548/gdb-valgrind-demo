@@ -19,7 +19,7 @@ void travel() {
   scanf("%d", &input);
   printf("You entered: %d km\n", input);
   printf("Let's gooooooo!!!!!\n\n");
-  int distanceTravelled;
+  int distanceTravelled = 0;
 
   // print each km as we travel
   int i = 0;
